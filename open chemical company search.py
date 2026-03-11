@@ -8,7 +8,7 @@ websites = {
 	"abcr": f"https://abcr.com/de_en/catalogsearch/advanced/result/?cas={cas}",
 	"tcigermany": f"https://www.tcichemicals.com/DE/en/search/?text={cas}",
 	"chempur": f"https://chempur.de/en/product-search/",
-	"carbolution": f"https://www.carbolution.de/advanced_search_result.php?keywords={cas}",
+	"carbolution": f"https://www.carbolution.de/search?search={cas}",
 	"bldpharm": f"https://www.bldpharm.com/search/Search.html?keyword={cas}"
 }
 #print(type(websites))
