@@ -3,7 +3,7 @@ import webbrowser
 
 import pyperclip
 
-cas = str(input("Enter CAS number please:"))
+cas = str(input("Enter CAS number please: "))
 pyperclip.copy(cas)
 
 websites = {
