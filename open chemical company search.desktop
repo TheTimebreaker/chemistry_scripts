@@ -1,0 +1,10 @@
+# file to launch script directly from your linux desktop environments application launcher
+# copy it to whereever the .desktop files are stored
+# 
+[Desktop Entry]
+Type=Application
+Name=Open Chemical Company Search
+
+# Don't forget to change this!
+Exec="/full/path/to/executable"
+Terminal=true

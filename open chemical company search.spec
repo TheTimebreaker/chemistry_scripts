@@ -1,8 +1,8 @@
-# -*- mode: python ; coding: utf-8 -*-
-
+from PyInstaller.building.api import EXE, PYZ
+from PyInstaller.building.build_main import Analysis
 
 a = Analysis(
-    ['open chemical company search.py'],
+    ["open chemical company search.py"],
     pathex=[],
     binaries=[],
     datas=[],
@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='open chemical company search',
+    name="open chemical company search",
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
